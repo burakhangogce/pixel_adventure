@@ -28,10 +28,6 @@ class Level extends World {
             player.position = Vector2(spawnPoint.x, spawnPoint.y);
             add(player);
             break;
-          case 'Enemy':
-            enemy.position = Vector2(spawnPoint.x, spawnPoint.y);
-            add(enemy);
-            break;
           default:
         }
       }
